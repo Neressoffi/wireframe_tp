@@ -1,0 +1,92 @@
+.header-container {
+  position: absolute;
+  width: 212px;
+  height: 78px;
+  left: 18px;
+  top: 109px;
+}
+
+h1 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 39px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  margin-bottom: 20px; /* Ajout de marge en bas pour rapprocher l'h1 des boutons */
+}
+
+.salle-button {
+  position: absolute;
+  width: 89px;
+  height: 33px;
+  top: 218px;
+  background: #E9E9E9;
+  border-radius: 8px;
+}
+
+.Cuisine-button {
+  position: absolute;
+  width: 94px;
+  height: 33px;
+  left: 124px;
+  top: 218px;
+  background: #E9E9E9;
+  border-radius: 8px;
+}
+
+.Service-button {
+  position: absolute;
+  width: 84px;
+  height: 33px;
+  left: 238px;
+  top: 218px;
+  background: #E9E9E9;
+  border-radius: 8px;
+}
+
+.group-4 {
+  position: absolute;
+  width: 384px;
+  height: 76px;
+  left: 21px;
+  top: 277px;
+  border-width: 0px 0px 0px 0px;
+  border-style: solid;
+  border-color: rgba(184, 184, 184, 1);
+}
+
+.group-10 {
+  position: absolute;
+  width: 384px;
+  height: 52px;
+  left: 22px;
+  top: 842px;
+}
+/* Header.scss */
+
+/* Styles pour les rectangles */
+.rectangle {
+  height: 50px; /* Hauteur des rectangles */
+  border: 1px solid #000; /* Bordure des rectangles */
+  margin-bottom: 20px; /* Espacement entre les rectangles */
+}
+
+
+
+
+.rectangle3 {
+  width: 300px; /* Largeur du troisième rectangle */
+  background-color: #fff; /* Couleur de fond du troisième rectangle */
+}
+.footer {
+  width: 384px;
+  height: 52px;
+  top: 842px;
+  left: 22px;
+  border-radius: 25px;
+  background-color: #ffffff;
+ 
+}
+

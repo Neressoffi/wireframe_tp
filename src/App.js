@@ -1,14 +1,13 @@
 import './App.css';
 import Header from './components/Header/Header'; 
-import body from './components/body/body';
+import Home from './pages/Home';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header /> 
-        {/* Utilisez le composant Header */}
-      </header>
-      <body />
+    <div className="flex flex-col gap-1 p-4">
+      <Header />
+
+      <Home />
     </div>
   );
 }
